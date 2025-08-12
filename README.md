@@ -1,5 +1,5 @@
 <!-- Imagen de portada -->
-![Imagen de portada de mi CV](  )
+![Imagen de portada de mi CV](imag/pf/Captura de pantalla 2025-08-11 201555.png)
 
 ---
 
@@ -21,12 +21,6 @@ El objetivo es ofrecer una visión clara de mi perfil y trayectoria como futura 
 
 > 💡 Este proyecto está pensado como un CV dinámico y accesible para potenciales empleadores y colaboradores.
 
-Ejemplo visual:
-
-![Vista previa del CV](ruta/de/tu/imagen_o_gif.gif)
-
----
-
 ## ✔️ Técnicas y tecnologías utilizadas
 
 - **HTML / CSS** para el diseño del portafolio.
@@ -39,7 +33,7 @@ Ejemplo visual:
 ## 📁 Acceso al proyecto
 
 Puedes ver mi CV y portafolio en línea en:  
-**[https://tuusuario.github.io/tu-repositorio](https://github.com/NayeliSilva2322)**  
+**[https://github.com/NayeliSilva2322](https://github.com/NayeliSilva2322)**  
 
 O clonar este repositorio:  
 
