@@ -13,7 +13,7 @@
   --fuente-montserrat: 'Montserrat', sans-serif;
   --fuente-inter: 'Inter', sans-serif;
   --fuente-roboto: 'Roboto', sans-serif;
-  --container-max: 1000px ;
+  --container-max: 1300px ;
   --radius: 12px;
   --gap: 1rem;
   --shadow-md: 0 4px 6px -1px #000000, 0 2px 4px -2px #000000;
@@ -544,4 +544,5 @@ html,body{height:100%;margin: 0;
  }
 
 }
+
 
