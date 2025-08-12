@@ -1,11 +1,11 @@
 <!-- Imagen de portada -->
-![Imagen de portada de mi CV](ruta/de/tu/imagen.jpg)
+![Imagen de portada de mi CV](  )
 
 ---
 
-# CV y Portafolio – Cyndi Nayeli Silva Abanto
+# CV – Cyndi Nayeli Silva Abanto
 
-Este repositorio presenta mi **Currículum Vitae y portafolio profesional**, donde se puede conocer en detalle mi formación académica, experiencia, habilidades técnicas y proyectos destacados.  
+Este repositorio presenta mi **Currículum Vitael**, donde se puede conocer en detalle mi formación académica, experiencia, habilidades técnicas y proyectos destacados.  
 El objetivo es ofrecer una visión clara de mi perfil y trayectoria como futura Ingeniera Industrial y de Sistemas, con especial enfoque en **inteligencia artificial, deep learning y análisis de datos**.
 
 ---
@@ -39,9 +39,9 @@ Ejemplo visual:
 ## 📁 Acceso al proyecto
 
 Puedes ver mi CV y portafolio en línea en:  
-**[https://tuusuario.github.io/tu-repositorio](https://tuusuario.github.io/tu-repositorio)**  
+**[https://tuusuario.github.io/tu-repositorio](https://github.com/NayeliSilva2322)**  
 
 O clonar este repositorio:  
 
 ```bash
-git clone https://github.com/tuusuario/tu-repositorio.git
+git clone https://github.com/NayeliSilva2322/cv-2025.git
