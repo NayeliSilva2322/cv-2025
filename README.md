@@ -1,5 +1,5 @@
 <!-- Imagen de portada -->
-![Imagen de portada de mi CV](.imag/pf/Captura de pantalla 2025-08-11 201555.png)
+![Imagen de portada de mi CV](imag/pf/Captura de pantalla 2025-08-11 201555.png)
 
 ---
 
