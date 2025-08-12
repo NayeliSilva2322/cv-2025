@@ -1,0 +1,66 @@
+<!-- about.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Conociendome</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos-secundarios.css">
+</head>
+<body>
+  <header class="site-header" >
+    <div class="header-inner">
+      <nav id="primaryNav" class="primary-nav" role="navigation" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="experiencia-y-proyectos.html">Experiencia y proyectos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <article class="sobre-mi" style="background-color: var(--bg-2);" aria-labelledby="about-heading">
+
+      <section class="sobre-mi-formacion">
+        <h2 >Formación</h2>
+        <p>Universidad de Piura, Piura, Perú</p>
+        <P>
+          Grado: Bachiller en Ingeniería Industrial y de Sistemas (2020 II – 2025 II). 
+        </P> 
+      </section>
+      <section class="Distinciones">
+        <h2 >Distinciones y Reconocimientos</h2>
+        <ul class="Distinciones">
+          <li>Beca 18 – PRONABEC (Ago 2020 - Ago 2025)</li>
+          <li>Quinto Superior Académico – Universidad de Piura (2020 - 2025)</li>
+          <li>Beca de Viaje – TaReCDa Regional Workshop, Ecuador (Dic 2023)</li>
+          <li>Beca de Viaje – PhawAI: Connecting Peruvian Researchers in AI, Perú (Feb 2025)</li>
+          <li>Participante – Aspire Leaders Program, Perú (2025)</li>
+        </ul>
+      </section>
+
+      <section class="sobre-mi-habilidades">
+        <h2 >Habilidades</h2>
+        <ul class="skills-list">
+          <li>Lenguajes: Python, Java, PHP, HTML, JavaScript, SQL, CSS</li>
+          <li>Frameworks y librerías: PyTorch, Scikit-learn</li>
+          <li>Herramientas: GitHub, Visual Studio Code, MySQL, MS Project, MATLAB</li>
+          <li>Competencias: Preprocesamiento de datos, modelado predictivo, evaluación con métricas (F1, RMSE), visualización</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container-footer-inner">
+      <p>© <span id="year-about"></span> Cyndi Nayeli Silva Abanto.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

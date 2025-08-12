@@ -1,0 +1,129 @@
+<!-- experience.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Experiencia — Cyndi Silva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos-experiencia.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <nav id="primaryNav" class="primary-nav" role="navigation" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="experiencia.html">Experiencia y proyectos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section id="experienciaseccion" class="experience-list" aria-labelledby="exp-heading">
+      <h1>Experiencia</h1>
+
+      <article class="experiencia">
+        <h2 >Asistente de Docencia – Universidad de Piura, Piura, Perú</h2>
+        <p class="fecha"><span aria-label="Calendario" role="img">📅</span> Mar 2023 – Jul 2024</p>
+        <h3> Cursos: Sistemas de Bases de Datos y Álgebra Lineal.</h3>
+
+        <p> Colaboré en la preparación de materiales, 
+          resolución de dudas y evaluación de ejercicios prácticos.
+           Facilite sesiones de laboratorio y oriente estudiantes en consultas sobre SQL, 
+           estructuras de datos y conceptos matriciales aplicados.</p>
+      </article>
+      <article class="experiencia">
+        <h2>Practicante Preprofeesional de gestión de Operaciones – UDEP, Piura, Perú</h2>
+        <p class="fecha"><span aria-label="Calendario" role="img">📅</span> Ener 2025 – presente</p>
+        <h3> Asistente de docencia dirección de proyectos</h3>
+       <p>Apoyo en la aplicación y guía de proyectos de 
+        ingeniería de sistemas e industriales, colaborando en
+         la planificación, ejecución y seguimiento de 
+         actividades. Asistencia en la elaboración de 
+         materiales, orientación a estudiantes y s
+         upervisión de avances para garantizar el cumplimiento de los objetivos académicos y técnicos.</p>
+      </article>
+
+      <article class="experiencia">
+        <h2>Voluntaria de Investigación –   ECRM-UDEP, Piura, Perú</h2>
+        <p class="fecha"><span aria-label="Calendario" role="img">📅</span> Ago 2023 – presente</p>
+        <h3>Investigación de variables climáticas que afectan radares </h3>
+        <p>Participación en el análisis de variables meteorológicas que influyen en el rendimiento de radares meteorológicos, incluyendo la recopilación, limpieza y procesamiento de datos. Colaboración en la aplicación de modelos estadísticos y técnicas de aprendizaje profundo para mejorar la interpretación y precisión de las mediciones, contribuyendo a investigaciones para optimizar la predicción de precipitaciones.</p>
+      </article>
+    </section>
+    <section id="proyectosseccion" class="projects-grid" aria-labelledby="projects-heading">
+      <h1  >Lista de proyectos</h1>
+
+      <!-- Proyecto 1 -->
+      <article class="project-card">
+        <div class="project-row">
+          <div class="project-info">
+            <button class="project-toggle" aria-expanded="false" aria-controls="proj1-content">
+              <h3 id="p1">Predicción de precipitaciones a corto plazo</h3>
+            </button>
+            <div id="proj1-content" class="project-content" hidden>
+              <p class="meta">Mar 2025 – presente</p>
+              <p>Desarrollo de un sistema de predicción de lluvia en Piura usando datos de radares y pluviómetros. Evaluamos CNN, LSTM y ConvLSTM para identificar el modelo óptimo.</p>
+              <p><strong>Tecnologías:</strong> PyTorch, Python, NumPy, Matplotlib, MySQL</p>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="img/proyecto1.jpg" alt="Imagen del proyecto Predicción de precipitaciones">
+          </div>
+        </div>
+      </article>
+
+      <!-- Proyecto 2 -->
+      <article class="project-card" >
+        <div class="project-row">
+          <div class="project-info">
+            <button class="project-toggle" aria-expanded="false" aria-controls="proj2-content">
+              <h3 id="p2">Prevención de fraude por ingeniería social</h3>
+            </button>
+            <div id="proj2-content" class="project-content" hidden>
+              <p class="meta">Feb 2025</p>
+              <p>Sistema de detección de fraudes usando modelos de deep learning. Comparativa entre Random Forest, CNN y RoBERTa; RoBERTa alcanzó la mejor performance en detección.</p>
+              <p><strong>Tecnologías:</strong> Python, Transformers, Scikit-learn</p>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="img/proyecto2.jpg" alt="Imagen del proyecto Prevención de fraude por ingeniería social">
+          </div>
+        </div>
+      </article>
+
+      <!-- Proyecto 3 -->
+      <article class="project-card" >
+        <div class="project-row">
+          <div class="project-info">
+            <button class="project-toggle" aria-expanded="false" aria-controls="proj3-content">
+              <h3 id="p3">NLP para expedientes de pensiones alimenticias</h3>
+            </button>
+            <div id="proj3-content" class="project-content" hidden>
+              <p class="meta">Ago 2023 – Nov 2023</p>
+              <p>Procesamiento de documentos judiciales para casos de pensiones creando un vocabulario que enlaza jerga regional con terminología técnico-legal. Entrenamiento inicial de LLM con resultados prometedores.</p>
+              <p><strong>Tecnologías:</strong> Python, NLP, TF/transformers, base de datos relacional</p>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="img/proyecto3.jpg" alt="Imagen del proyecto NLP para expedientes de pensiones alimenticias">
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year-exp"></span> Cyndi Nayeli Silva Abanto.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
